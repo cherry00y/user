@@ -8,14 +8,22 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Register from './Register'
+import Record from './recode.js'
+import Home from './home'
+import Showdata from './showinfo'
+import Detaildrug from './detaildrug'
+import Detaildisease from './detaildisease'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App/>}/>
-      <Route path='/register' element={<Register/>}/>
+      <Route path='/record' element={<Record/>}/>
+      <Route path='/home' element={<Home/>}/>
+      <Route path='/showdata' element={<Showdata/>}/>
+      <Route path='/detaildrug/:id' element={<Detaildrug/>}/>
+      <Route path='/detaildisease/:id' element={<Detaildisease/>}/>
     </Routes>
   </BrowserRouter>
 );

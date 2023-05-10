@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 import Button from '@mui/material/Button';
-
+import Home from './home'
 function App() {
   return (
-      <div>
-        <Button variant="contained">Hello World</Button>
-      </div>
+    <div>
+      <Home/>
+    </div>
   );
 }
 
