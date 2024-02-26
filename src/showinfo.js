@@ -51,7 +51,7 @@ export default function SimpleContainer() {
         redirect: 'follow'
       };
       
-      fetch("https://rich-cyan-wasp.cyclic.app/tabledisease", requestOptions)
+      fetch("https://blue-bright-nightingale.cyclic.app/tabledisease", requestOptions)
         .then(response => response.json())
         .then(result => {
             setItemss(result.data)})
