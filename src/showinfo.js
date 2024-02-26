@@ -36,7 +36,7 @@ export default function SimpleContainer() {
         method: 'POST',
         redirect: 'follow'
         };
-    fetch("https://rich-cyan-wasp.cyclic.app/tablegrug", requestOptions)
+    fetch("https://blue-bright-nightingale.cyclic.app/tablegrug", requestOptions)
     .then(response => response.json())
     .then(result => {
         setItems(result.data)})

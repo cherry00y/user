@@ -31,7 +31,7 @@ export default function Delailsdrug() {
         redirect: 'follow'
         };
 
-        fetch("https://rich-cyan-wasp.cyclic.app/getdetaildrug/", requestOptions)
+        fetch("https://blue-bright-nightingale.cyclic.app/getdetaildrug/", requestOptions)
         .then(response => response.json())
         .then(result => {
              if(result.status === "ok"){
